@@ -1,0 +1,17 @@
+Para el funcionamiento del código se requiere la instalar la librería versión 4.5.0
+El link de descarga es el siguiente
+https://sourceforge.net/projects/opencvlibrary/files/4.5.0/opencv-4.5.0-vc14_vc15.exe/download
+
+Una vez instalado se debe copiar el archivo opencv_java450.dll que se encuentra en la carpera de la instalación.
+C:\opencv\build\java\x86 o C:\opencv\build\java\x64 según el la versión de Windows
+
+En la siguiente ruta se encuentran los archivos de cascada que se usan en el programa
+C:\opencv\sources\data\haarcascades
+
+Los archivos haarcascade_frontralface, haarcascade_frontalcatfaceExtended, haarcascade_simle, haarcascade_lowerbody 
+se les quitó el prefijo “haarcascade_” para facilitar su nombre.
+
+Estos archivos son los que han sido entrenados para el reconocimiento.
+
+Si se desea agregar un nuevo archivo se tiene que agregar en la ruta C:\opencv\sources\data\haarcascades y 
+también en la carpeta “xml” que se encuentra dentro de la carpeta del proyecto.
